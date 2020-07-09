@@ -1,0 +1,23 @@
+/*
+*   chat.css
+*/
+
+.main {
+    position: absolute;
+    bottom: 2%;
+    width: 98%;
+}
+
+.chat-history {
+    margin-bottom: 5px;
+}
+
+input.userfield {
+    float: left;
+    width: 14%;
+}
+
+input.msgfield {
+    
+}
+

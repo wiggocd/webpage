@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="dist/main.css">
+        <link rel="stylesheet" type="text/css" href="dist/posts.css">
+        <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+        <script src="dist/client/client.js"></script>
+        <script src="dist/client/posts.js"></script>
+    </head>
+    <div class="titlebar">
+        <div class="titlebaricon">
+            <img class="titlebaricon" src="assets/icons/windows_small.png">
+        </div>
+        <h1 class="header">The New Webpage</h1>
+        <!--
+        <img class="button" src="assets/icons/close.png">
+        <img class="button" src="assets/icons/max.png">
+        <img class="button" src="assets/icons/min.png">
+        -->
+    </div>
+    <div class="header">
+        <div class="tabs">
+            <a class="tab" href="index.html">Home</a>
+            <a class="tab" href="chat.html">Chat</a>
+            <a class="tab" href="">Posts</a>
+            <a class="tab" href="">Profile</a>
+        </div>
+    </div>
+    <div class="headerbar">
+        <img class="headerbar" src="assets/images/thematrix.png">
+        <div class="headerbar-gradient"></div>
+        <div class="headerbar-text">
+            <h2 class="header">Welcome, to the real world.</h2>
+        </div>
+    </div>
+    <div class="page-selector">
+        <div class="page-selector-cell">
+            <a class="page-link" href="">1</a>
+        </div>
+        <div class="page-selector-cell">
+            <a class="page-link" href="">2</a>
+        </div>
+        <div class="page-selector-cell">
+            <a class="page-link" href="">3</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="post" id="post_0">
+            <div class="post-left">
+                <div class="inner">
+                    <img class="profile" src="assets/icons/computer.png">
+                    <h1 class="username">User</h1>
+                    <h2 class="subtitle">Subtitle</h2>
+                    <p class="user-details">Details</p>
+                </div>
+            </div>
+            <div class="post-right">
+                <div class="right-inner">
+                    <p class="post-header">Posted on 08/07/2020 at 23:00</p>
+                    <p class="post-body">Post</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>

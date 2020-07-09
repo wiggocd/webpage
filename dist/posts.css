@@ -1,0 +1,60 @@
+/*
+*   posts.css
+*/
+
+h1.username {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2.subtitle {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.post {
+    border: 4px;
+    border-style: ridge;
+    border-color:gray;
+    overflow: hidden;
+}
+
+.inner {
+    margin: 6px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.right-inner {
+    margin: 4px;
+    position: relative;
+    float: left;
+}
+
+.post-left {
+    float: left;
+    width: 25%;
+    background-color: #333333;
+    border: 4px;
+    border-style: ridge;
+    border-color:gray;
+    height: max-content;
+    overflow: hidden;
+}
+
+.post-right {
+    position: relative;
+    float: inline-start;
+}
+
+p.post-header {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-style: italic;
+}
+
+p.post-body {
+    margin-top: 0px;
+}

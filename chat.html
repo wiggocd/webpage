@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="dist/main.css">
+        <link rel="stylesheet" type="text/css" href="dist/chat.css">
+        <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+        <script src="dist/client/client.js"></script>
+        <script src="dist/client/chat.js"></script>
+    </head>
+    <div class="titlebar">
+        <img class="titlebaricon" src="../assets/icons/windows_small.png">
+        <h1 class="header">The New Webpage</h1>
+    </div>
+    <div class="header">
+        <div class="tabs">
+            <a class="tab" href="index.html">Home</a>
+            <a class="tab" href="chat.html">Chat</a>
+            <a class="tab" href="">Posts</a>
+            <a class="tab" href="">Profile</a>
+        </div>
+    </div>
+    <div class="headerbar">
+        <img class="headerbar" src="../assets/images/thematrix.png">
+        <div class="headerbar-gradient"></div>
+        <div class="headerbar-text">
+            <h2 class="header">Welcome, to the real world.</h2>
+        </div>
+    </div>
+    <div class="page-selector">
+        <div class="page-selector-cell">
+            <a class="page-link" href="">1</a>
+        </div>
+        <div class="page-selector-cell">
+            <a class="page-link" href="">2</a>
+        </div>
+        <div class="page-selector-cell">
+            <a class="page-link" href="">3</a>
+        </div>
+    </div>
+    <div class="main" id="main">
+        <div class="chat-history"></div>
+        <input type="text" class="userfield" tabindex="1" placeholder="Username">
+        <input type="text" class="msgfield" tabindex="2" placeholder="Please enter a message...">
+    </div>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "server": "node dist/server/server.js",
+    "all": "npm run build && npm run server"
+  },
+  "author": "Christian Wiggins",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/socket.io": "^2.1.8",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.20"
+  }
+}

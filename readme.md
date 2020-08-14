@@ -3,8 +3,11 @@ This project is an in-progress prototype for an online forum and basic chatroom 
 
 ## Installation
 First of all, please run        `npm install` from the project root.
+
 To compile the Typescript, use  `npm run build`
+
 To run the server, use          `npm run server`
+
 To both build and run, use      `npm run all`.
 
 To view the webpage locally, visit `localhost:3000` from your browser of choice!
